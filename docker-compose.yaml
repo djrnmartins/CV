@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  resume-builder:
+    image: resume-builder
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    command: tail -f /dev/null

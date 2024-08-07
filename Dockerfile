@@ -1,70 +1,50 @@
-FROM node:18-slim
+# Use the official Node.js image as the base image
+FROM node:18.14.2
 
-RUN mkdir -p /home/node/CV
-WORKDIR /home/node/CV
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libx11-xcb1 \
+    libxcomposite1 \
+    libxcursor1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxrandr2 \
+    libgbm1 \
+    libpango-1.0-0 \
+    libasound2 \
+    libpangocairo-1.0-0 \
+    libatk1.0-0 \
+    libcups2 \
+    libdrm2 \
+    libxss1 \
+    libgdk-pixbuf2.0-0 \
+    libgtk-3-0 \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install latest chrome dev package and fonts to support major charsets (Chinese, Japanese, Arabic, Hebrew, Thai and a few others)
-# Note: this installs the necessary libs to make the bundled version of Chromium that Puppeteer
-# installs, work.
-RUN apt-get update
-RUN apt-get install -y wget gnupg
-RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
-    && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
-RUN apt-get install -y google-chrome-unstable
-RUN apt-get install -y fonts-ipafont-gothic --no-install-recommends
-RUN apt-get install -y fonts-wqy-zenhei --no-install-recommends
-RUN apt-get install -y fonts-thai-tlwg --no-install-recommends
-RUN apt-get install -y fonts-kacst --no-install-recommends
-RUN apt-get install -y fonts-freefont-ttf --no-install-recommends
-RUN rm -rf /var/lib/apt/lists/*
+# Download and install Chromium manually
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && apt-get update \
+    && apt-get install -y ./google-chrome-stable_current_amd64.deb \
+    && rm google-chrome-stable_current_amd64.deb
 
-RUN apt-get update
-RUN apt-get install -y gconf-service
-RUN apt-get install -y libasound2
-RUN apt-get install -y libatk1.0-0
-RUN apt-get install -y libc6
-RUN apt-get install -y libcairo2
-RUN apt-get install -y libcups2
-RUN apt-get install -y libdbus-1-3
-RUN apt-get install -y libexpat1
-RUN apt-get install -y libfontconfig1
-RUN apt-get install -y libgconf-2-4
-RUN apt-get install -y libgdk-pixbuf2.0-0
-RUN apt-get install -y libglib2.0-0
-RUN apt-get install -y libgtk-3-0
-RUN apt-get install -y libnspr4
-RUN apt-get install -y libpango-1.0-0
-RUN apt-get install -y libpangocairo-1.0-0
-RUN apt-get install -y libstdc++6
-RUN apt-get install -y libx11-6
-RUN apt-get install -y libx11-xcb1
-RUN apt-get install -y libxcb1
-RUN apt-get install -y libxcomposite1
-RUN apt-get install -y libxcursor1
-RUN apt-get install -y libxdamage1
-RUN apt-get install -y libxext6
-RUN apt-get install -y libxfixes3
-RUN apt-get install -y libxi6
-RUN apt-get install -y libxrandr2
-RUN apt-get install -y libxrender1
-RUN apt-get install -y libxss1
-RUN apt-get install -y libxtst6
-RUN apt-get install -y ca-certificates
-RUN apt-get install -y fonts-liberation
-RUN apt-get install -y libnss3
-RUN apt-get install -y lsb-release
-RUN apt-get install -y xdg-utils
-RUN apt-get install -y wget
-
-# Install puppeteer so it's available in the container.
-RUN npm i puppeteer \
-    # Add user so we don't need --no-sandbox.
-    # same layer as npm install to keep re-chowned files from using up several hundred MBs more space
-    && groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
-    && mkdir -p /home/pptruser/Downloads \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /home/node/CV/node_modules
-
+# Set the environment variable to skip Chromium download
+ENV PUPPETEER_SKIP_DOWNLOAD=true
 ENV RESUME_PUPPETEER_NO_SANDBOX=1
 
-CMD chmod +x install.sh && chmod +x generate.sh && npm install && ./install.sh && ./generate.sh
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Install resume-cli and jsonresume-theme-class globally
+RUN npm install -g resume-cli
+RUN npm update -g resume-cli
+
+# Copy the current directory contents into the container at /usr/src/app
+COPY . .
+
+# Expose port 3000 (if needed for other purposes)
+EXPOSE 3000
+
+# Command to keep the container running
+CMD ["tail", "-f", "/dev/null"]

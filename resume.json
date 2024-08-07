@@ -1,5 +1,4 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 	  "name": "Daniel Martins",
 	  "label": "Software Developer",
@@ -124,13 +123,6 @@
 		"summary": "Merit recognition for the project \"Display(Matriz) de LEDs interativo\" presented in Lisbon Makers Faire 2015."
 	  }
 	],
-	"certificates": [
-	  {
-		"name": "Exam 70-464: Developing Microsoft SQL Server 2012 Databases",
-		"issuer": "Microsoft",
-		"date": "2019-09-30"
-	  }
-	],
 	"publications": [
 	  {
 		"name": "Framework for Hospitality Big Data Warehouse: the implementation of an efficient Hospitality Business Intelligence System",
@@ -152,13 +144,13 @@
 	  },
 	  {
 		"name": "Challenges in Building a Big Data Warehouse Applied to the Hotel Business Intelligence",
-		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT’15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 110-117. ISBN: 978-1-61804-313-9",
+		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 110-117. ISBN: 978-1-61804-313-9",
 		"releaseDate": "2015-12-31",
 		"url": "https://www.researchgate.net/profile/Celia_Ramos/publication/281209790_Challenges_in_Building_a_Big_Data_Warehouse_Applied_to_the_Hotel_Business_Intelligence/links/56dee12808aec8c022cf2ed6/Challenges-in-Building-a-Big-Data-Warehouse-Applied-to-the-Hotel-B"
 	  },
 	  {
-		"name": "Guest Reputation Indexes to Analyze the Hotel’s Online Reputation Using Data Extracted from OTAs",
-		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT’15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 50-59ISBN: 978-1-61804-313-9",
+		"name": "Guest Reputation Indexes to Analyze the Hotel's Online Reputation Using Data Extracted from OTAs",
+		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 50-59ISBN: 978-1-61804-313-9",
 		"releaseDate": "2015-12-31",
 		"url": "https://s3.amazonaws.com/academia.edu.documents/38598147/2015_Conferencia_Italia_Salerno_Choupina.pdf?response-content-disposition=inline%3B%20filename%3DGuest_Reputation_Indexes_to_Analyze_the.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWO"
 	  }
@@ -166,6 +158,7 @@
 	"skills": [
 	  {
 		"name": "Frontend",
+		"level": " ",
 		"keywords": [
 		  "Angular",
 		  "React",
@@ -176,6 +169,7 @@
 	  },
 	  {
 		"name": "Backend",
+		"level": " ",
 		"keywords": [
 		  "C#",
 		  "NET Core",
@@ -191,6 +185,7 @@
 	  },
 	  {
 		"name": "Version Control",
+		"level": " ",
 		"keywords": [
 		  "GIT",
 		  "TFSVC",
@@ -200,6 +195,7 @@
 	  },
 	  {
 		"name": "Work Methodologies",
+		"level": " ",
 		"keywords": [
 		  "Scrum",
 		  "Agile"
@@ -207,6 +203,7 @@
 	  },
 	  {
 		"name": "Soft Skills",
+		"level": " ",
 		"keywords": [
 		  "Critical Thinking",
 		  "Ownership",
