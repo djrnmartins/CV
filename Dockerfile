@@ -28,17 +28,13 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
     && apt-get update \
     && apt-get install -y ./google-chrome-stable_current_amd64.deb \
     && rm google-chrome-stable_current_amd64.deb
-
+    
 # Set the environment variable to skip Chromium download
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 ENV RESUME_PUPPETEER_NO_SANDBOX=1
-
+    
 # Set the working directory
 WORKDIR /usr/src/app
-
-# Install resume-cli and jsonresume-theme-class globally
-RUN npm install -g resume-cli
-RUN npm update -g resume-cli
 
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
@@ -46,5 +42,4 @@ COPY . .
 # Expose port 3000 (if needed for other purposes)
 EXPOSE 3000
 
-# Command to keep the container running
-CMD ["tail", "-f", "/dev/null"]
+ENTRYPOINT ["sh", "-c", "chmod +x install.sh && chmod +x generate.sh && echo 'Installing resume-cli...' && npm install resume-cli@1.2.7 && echo 'End resume-cli installation!' && echo 'Installing templates...' && /usr/src/app/install.sh && echo 'End templates installation!' && echo 'Generating CV...' && /usr/src/app/generate.sh && echo 'End CV generation!' && tail -f /dev/null"]

@@ -1,7 +1,9 @@
 **Startup Docker Container:**
-- execute the command `docker compose up --build -d`
+1. Execute the command `docker compose up --build -d`. This command will install all depencies so you need to wait a few minutes. Open docker Logs window to see the logs.
 
-**Generate CV Templates:**
-1) Add the desired templates to *templates* file (One template per line).
-2) execute the command `docker compose exec resume-builder bash /usr/src/app/generate.sh`
+**Update Templates:**
+1. Add templates to templates file.
+2. Execute the command `docker-compose exec cv-runner bash ./install.sh`
 
+**Re-generate CV:**
+1. Execute the command `docker-compose exec cv-runner bash ./generate.sh`

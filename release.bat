@@ -1,1 +1,1 @@
-docker-compose up --build -d && docker-compose exec resume-builder bash /usr/src/app/generate.sh
+docker compose up --build -d

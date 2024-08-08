@@ -1,11 +1,54 @@
 version: '3.8'
 
 services:
-  resume-builder:
-    image: resume-builder
+  cv-runner:
+    image: daniel-cv
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - .:/usr/src/app
-    command: tail -f /dev/null
+    # entrypoint: > 
+    #   sh -c "
+    #     echo 'Installing resume-cli...' && 
+    #     npm install resume-cli && 
+    #     echo 'End resume-cli installation!' && 
+        
+    #     echo 'Installing templates...' &&
+    #     /usr/src/app/install.sh &&
+    #     echo 'End templates installation!' &&
+
+    #     echo 'Generating CV...' &&
+    #     /usr/src/app/generate.sh &&
+    #     echo 'End CV generation!' &&
+
+    #     tail -f /dev/null
+    #   "
+
+  # install-templates:
+  #   image: daniel-cv
+  #   depends_on:
+  #     - cv-runner
+  #   volumes:
+  #     - .:/usr/src/app
+  #   entrypoint: >
+  #     sh -c "
+  #       echo 'Installing templates...' &&
+  #       /usr/src/app/install.sh &&
+  #       echo 'End templates installation!'
+  #     "
+  #   restart: "no"
+
+  # generate:
+  #   image: daniel-cv
+  #   depends_on:
+  #     - cv-runner
+  #   volumes:
+  #     - .:/usr/src/app
+  #   entrypoint: >
+  #     sh -c "
+  #       echo 'Generating CV...' &&
+  #       /usr/src/app/generate.sh &&
+  #       echo 'End CV generation!'
+  #     "
+  #   restart: "no"

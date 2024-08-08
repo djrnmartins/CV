@@ -3,11 +3,6 @@ input="templates"
 mkdir -p releases
 while IFS= read -r line
 do
-	echo "Install theme $line..."
-
-	echo "npm install jsonresume-theme-$line"
-	npm install jsonresume-theme-$line
-
 	echo "Generating $line..."
 	
 	echo "./node_modules/.bin/resume export resume_$line.html -t $line"
