@@ -1,14 +1,16 @@
 {
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 	  "name": "Daniel Martins",
 	  "label": "Software Developer",
 	  "image": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
+	  "picture": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
 	  "email": "djrnmartins@gmail.com",
-	  "summary": "Graduated from Universidade do Algarve in Electrical and Electronic Engineering since 2013 and subsequently completed my master's degree in 2016.\nI intend to work on innovative and captivating projects that allow me to look at the work as a daily challenge.\nI am interested in technology and the areas I like most are Electronics and Programming. In my free time i do some personal projects to enrich my knowlegde and try to invent something new.\n",
+	  "summary": "I am a passionate and dedicated Electrical and Electronic Engineer, having graduated from Universidade do Algarve in 2013 and completed my master's degree in 2016. My career is driven by a love for technology and a desire to work on innovative and captivating projects that present daily challenges and opportunities for growth.\n\nI specialize in Electronics and Programming, constantly seeking to expand my knowledge and skills through personal projects and inventive solutions. In my free time, I enjoy exploring new technologies and creating unique projects that push the boundaries of what's possible.\n\nI am eager to contribute to forward-thinking teams and projects that value creativity, innovation, and continuous improvement.",
 	  "location": {
 		"countryCode": "PT",
-		"address": "Portugal",
-		"city": "Faro"
+		"region": "Algarve",
+		"city": "Olhão"
 	  },
 	  "profiles": [
 		{
@@ -28,73 +30,36 @@
 		"name": "Paycritical - Soluções de Pagamento, Lda",
 		"position": "Fullstack Developer",
 		"startDate": "2023-03-01",
-		"highlights": [
-		  "C#",
-		  "React",
-		  "Typescript",
-		  "RabbitMQ",
-		  "SQL",
-		  "Hangfire"
-		],
-		"summary": "Worked on an innovative project for [WYD Lisbon 2023](https://www.lisboa2023.org/en) that allowed to the restaurants to redeem meals by reading pilgrims QR Codes.\nWorked on [deGrazie](https://degrazie.com/en-US), a project that allows a user to read a QR Code for Order and Pay a meal in a restaurant.",
 		"url": "https://www.linkedin.com/company/paycritical/",
-		"location": "Remote Work"
+		"location": "Remote Work",
+		"summary": "**Project Overview:**\n- Developed an innovative solution for WYD Lisbon 2023: Enabled restaurants to redeem meals by reading pilgrims QR Codes, streamlining the process for thousands of participants.\n- Full-cycle development of DeGrazie: Created a solution that allows restaurants to provide QR Codes on tables, enabling customers to easily read, order, and pay for their meals.\n\n **Key Responsabilities:**\n- Backoffice Development: Utilized React to implement a backoffice for merchants to manage QR Codes and define menu products.\n- Frontoffice Development: Developed a React-based frontoffice for customers to read QR Codes and seamlessly order and pay for their meals.\n- Database Management: Employed SQL for efficient data storage and retrieval.\n- Message Queuing: Implemented RabbitMQ for background operations, ensuring smooth and reliable task execution.\n- Task Scheduling: Used Hangfire to schedule background operations with a robust retry system.\n- Real-time Updates: Leveraged SignalR to read messages from RabbitMQ and automatically update the web app without user refresh.\n\n **Work Methodology**: Agile\n\n **Version Control:** GIT"
 	  },
 	  {
 		"name": "Omnibees",
 		"position": "Fullstack Developer",
 		"startDate": "2019-05-31",
 		"endDate": "2023-02-28",
-		"highlights": [
-		  "C#",
-		  "NET Core",
-		  "Angular",
-		  "Typescript",
-		  "Serilog",
-		  "SQL",
-		  "MSMQ",
-		  "Azure Devops",
-		  "TFS",
-		  "SSIS (ETL Packages)",
-		  "XML SOAP",
-		  "JSON",
-		  "REST Api",
-		  "Scrum"
-		],
-		"summary": "Software development for hospitality purposes.",
 		"url": "https://www.linkedin.com/company/9348247",
-		"location": "Faro Area, Portugal"
+		"location": "Faro Area, Portugal",
+		"summary": "**Project Overview:**\nFull-cycle development of Omnibees to enhance hospitality services, ensuring seamless operations and improved customer experiences.\n\n **Key Responsabilities:**\n- Developed an API Template (.Net Core): Created a comprehensive API template in .Net Core, featuring authentication, authorization, tracing, health checks, logging, metrics, EF Core for database access and many usefull abstractions.\n- Migrated Silverlight to Angular: Transitioned legacy systems to modern frameworks, enhancing performance and user experience.\n- Developed Web APIs in C# (.Net Framework): Created robust APIs to support data integration and communication.\n- Implement and manage message queuing systems using MSMQ to handle asynchronous processing tasks.\n- Implemented distributed caching: Utilized Couchbase and Redis to optimize data retrieval and performance.\n- Database Management: Employed SQL for efficient data storage and retrieval, ensuring API efficiency.\n- Develop and maintain ETL packages using SSIS (SQL Server Integration Services) to extract, transform, and load data from various sources to make API reads more performant.\n- Unit Testing: Implemented unit tests using Moq to ensure business logic integrity during refactors.\n- Integration Testing: Ensured API endpoints functioned correctly through comprehensive integration tests.\n- End-to-End Testing: Applied Cypress tests to validate the entire system's functionality.\n\n **Work Methodology:** Scrum and Kanban\n\n **Version Control:** TFSVC and GIT (gitflow and trunkbase depending on the project size)"
 	  },
 	  {
 		"name": "Visualforma - Tecnologias de Informação, SA",
 		"position": "Software Developer",
 		"startDate": "2015-08-31",
 		"endDate": "2019-04-30",
-		"highlights": [
-		  "C#",
-		  "NET Framework",
-		  "WCF Ria Services",
-		  "Silverlight",
-		  "ASP.NET MVC",
-		  "Scrum"
-		],
-		"summary": "Software development for hospitality purposes.",
 		"url": "https://www.linkedin.com/company/1398256",
-		"location": "Faro Area, Portugal"
+		"location": "Faro Area, Portugal",
+		"summary": "**Project Overview:**\nDeveloped cutting-edge software solutions tailored for the hospitality industry, enhancing operational efficiency and customer experience.\n\n **Key Responsabilities:**\n- Develop interactive and rich user interfaces using Silverlight to streamline hospitality operations. This involves creating controls, layouts, and handling user interactions.\n- Implemented back-end logic for ASP.NET MVC applications, including creating and managing controllers, views, and models.\n- Developed Web APIs in C# (.Net Framework): Created robust and scalable Web APIs to support seamless data integration and communication.\n- Utilized SQL for efficient data storage and retrieval, ensuring the API’s optimal performance.\n- Implemented unit tests and integration tests for API.\n\n **Work Methodology:** Scrum\n\n **Version Control:** TFSVC"
 	  },
 	  {
 		"name": "Universidade do Algarve",
 		"position": "R&D Engineer",
 		"startDate": "2014-04-30",
 		"endDate": "2015-07-31",
-		"highlights": [
-		  "C#",
-		  "Selenium WebDriver",
-		  "MongoDB"
-		],
-		"summary": "SRM - Smart Revenue Management, QREN I&DT n.º 38962\n\nDevelopment of web crawlers to retrieve information in e-commerce websites for data warehouse purposes.",
 		"url": "https://www.linkedin.com/company/33511",
-		"location": "Faro Area, Portugal"
+		"location": "Faro Area, Portugal",
+		"summary": "R&D Engineer at SRM - Smart Revenue Management (QREN I&DT n.º 38962)\n\n **Project Overview:**\nLed the development of innovative web crawlers to enhance data retrieval from e-commerce websites, significantly improving data warehouse capabilities.\n\n **Key Responsabilities:**\n- Spearheaded the design and implementation of Web Crawlers using Selenium WebDriver, ensuring efficient and accurate data extraction.\n- Used C# (.Net Framework) to develop robust and scalable solutions tailored to project requirements.\n- Managed and optimized data storage with MongoDB, enhancing data accessibility and performance.\n- Applied algorithms to normalize data extracted from different sources."
 	  }
 	],
 	"education": [
@@ -172,15 +137,16 @@
 		"level": " ",
 		"keywords": [
 		  "C#",
-		  "NET Core",
-		  "NET Framework",
+		  ".NET Core",
+		  ".NET Framework",
 		  "REST API",
 		  "SQL / Couchbase / Redis",
 		  "MSMQ / RabbitMQ",
 		  "Serilog / NLog",
 		  "JSON / SOAP",
 		  "WCF RIA Services",
-		  "Hangfire"
+		  "Hangfire",
+		  "SignalR"
 		]
 	  },
 	  {
@@ -194,11 +160,42 @@
 		]
 	  },
 	  {
+		"name": "Testing Frameworks",
+		"level": " ",
+		"keywords": [
+		  "MSTest",
+		  "Moq",
+		  "Cypress",
+		  "Selenium WebDriver",
+		  "Postman API Testing",
+		  "SOAP UI Load Testing"
+		]
+	  },
+	  {
 		"name": "Work Methodologies",
 		"level": " ",
 		"keywords": [
 		  "Scrum",
+		  "Kanban",
 		  "Agile"
+		]
+	  },
+	  {
+		"name": "Tools",
+		"level": " ",
+		"keywords": [
+		  "Postman",
+		  "SOAP UI",
+		  "SSMS",
+		  "Visual Studio",
+		  "VS Code",
+		  "RoslynPad",
+		  "LINQPad",
+		  "Mockoon",
+		  "ILSpy",
+		  "Fiddler",
+		  "GitExtensions",
+		  "Docker Desktop"
 		]
 	  },
 	  {
@@ -268,6 +265,13 @@
 		  "Hardware",
 		  "Structure"
 		]
+	  }
+	],
+	"certificates": [
+	  {
+		"name": "Exam 70-464: Developing Microsoft SQL Server 2012 Databases",
+		"issuer": "Microsoft",
+		"date": "2019-09-30"
 	  }
 	],
 	"meta": {
