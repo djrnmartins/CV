@@ -1,282 +1,282 @@
 {
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
-	  "name": "Daniel Martins",
-	  "label": "Software Developer",
-	  "image": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
-	  "picture": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
-	  "email": "djrnmartins@gmail.com",
-	  "summary": "I am a passionate and dedicated Electrical and Electronic Engineer, having graduated from Universidade do Algarve in 2013 and completed my master's degree in 2016. My career is driven by a love for technology and a desire to work on innovative and captivating projects that present daily challenges and opportunities for growth.\n\nI specialize in Electronics and Programming, constantly seeking to expand my knowledge and skills through personal projects and inventive solutions. In my free time, I enjoy exploring new technologies and creating unique projects that push the boundaries of what's possible.\n\nI am eager to contribute to forward-thinking teams and projects that value creativity, innovation, and continuous improvement.",
-	  "location": {
-		"countryCode": "PT",
-		"region": "Algarve",
-		"city": "Olhão"
-	  },
-	  "profiles": [
-		{
-		  "network": "LinkedIn",
-		  "username": "daniel-martins-8b7a5b191",
-		  "url": "https://www.linkedin.com/in/daniel-martins-8b7a5b191/"
+		"name": "Daniel Martins",
+		"label": "Software Developer",
+		"image": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
+		"picture": "https://media.licdn.com/dms/image/v2/D4D03AQGKnn5ybfJYZQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722949650149?e=1728518400&v=beta&t=65xnfrtZQovUgHvKlCPmLkERwCJU2CQEEfbxQRvnrIk",
+		"email": "djrnmartins@gmail.com",
+		"summary": "I am a passionate and dedicated Electrical and Electronic Engineer, having graduated from Universidade do Algarve in 2013 and completed my master's degree in 2016. My career is driven by a love for technology and a desire to work on innovative and captivating projects that present daily challenges and opportunities for growth.\n\nI specialize in Electronics and Programming, constantly seeking to expand my knowledge and skills through personal projects and inventive solutions. In my free time, I enjoy exploring new technologies and creating unique projects that push the boundaries of what's possible.\n\nI am eager to contribute to forward-thinking teams and projects that value creativity, innovation, and continuous improvement.",
+		"location": {
+			"countryCode": "PT",
+			"region": "Algarve",
+			"city": "Olhão"
 		},
-		{
-		  "network": "GitHub",
-		  "username": "djrnmartins",
-		  "url": "https://gist.github.com/djrnmartins"
-		}
-	  ]
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "daniel-martins-8b7a5b191",
+				"url": "https://www.linkedin.com/in/daniel-martins-8b7a5b191/"
+			},
+			{
+				"network": "GitHub",
+				"username": "djrnmartins",
+				"url": "https://gist.github.com/djrnmartins"
+			}
+		]
 	},
 	"work": [
-	  {
-		"name": "Paycritical - Soluções de Pagamento, Lda",
-		"position": "Fullstack Developer",
-		"startDate": "2023-03-01",
-		"url": "https://www.linkedin.com/company/paycritical/",
-		"location": "Remote Work",
-		"summary": "**Project Overview:**\n- Developed an innovative solution for WYD Lisbon 2023: Enabled restaurants to redeem meals by reading pilgrims QR Codes, streamlining the process for thousands of participants.\n- Full-cycle development of DeGrazie: Created a solution that allows restaurants to provide QR Codes on tables, enabling customers to easily read, order, and pay for their meals.\n\n **Key Responsabilities:**\n- Backoffice Development: Utilized React to implement a backoffice for merchants to manage QR Codes and define menu products.\n- Frontoffice Development: Developed a React-based frontoffice for customers to read QR Codes and seamlessly order and pay for their meals.\n- Database Management: Employed SQL for efficient data storage and retrieval.\n- Message Queuing: Implemented RabbitMQ for background operations, ensuring smooth and reliable task execution.\n- Task Scheduling: Used Hangfire to schedule background operations with a robust retry system.\n- Real-time Updates: Leveraged SignalR to read messages from RabbitMQ and automatically update the web app without user refresh.\n\n **Work Methodology**: Agile\n\n **Version Control:** GIT"
-	  },
-	  {
-		"name": "Omnibees",
-		"position": "Fullstack Developer",
-		"startDate": "2019-05-31",
-		"endDate": "2023-02-28",
-		"url": "https://www.linkedin.com/company/9348247",
-		"location": "Faro Area, Portugal",
-		"summary": "**Project Overview:**\nFull-cycle development of Omnibees to enhance hospitality services, ensuring seamless operations and improved customer experiences.\n\n **Key Responsabilities:**\n- Developed an API Template (.Net Core): Created a comprehensive API template in .Net Core, featuring authentication, authorization, tracing, health checks, logging, metrics, EF Core for database access and many usefull abstractions.\n- Migrated Silverlight to Angular: Transitioned legacy systems to modern frameworks, enhancing performance and user experience.\n- Developed Web APIs in C# (.Net Framework): Created robust APIs to support data integration and communication.\n- Implement and manage message queuing systems using MSMQ to handle asynchronous processing tasks.\n- Implemented distributed caching: Utilized Couchbase and Redis to optimize data retrieval and performance.\n- Database Management: Employed SQL for efficient data storage and retrieval, ensuring API efficiency.\n- Develop and maintain ETL packages using SSIS (SQL Server Integration Services) to extract, transform, and load data from various sources to make API reads more performant.\n- Unit Testing: Implemented unit tests using Moq to ensure business logic integrity during refactors.\n- Integration Testing: Ensured API endpoints functioned correctly through comprehensive integration tests.\n- End-to-End Testing: Applied Cypress tests to validate the entire system's functionality.\n\n **Work Methodology:** Scrum and Kanban\n\n **Version Control:** TFSVC and GIT (gitflow and trunkbase depending on the project size)"
-	  },
-	  {
-		"name": "Visualforma - Tecnologias de Informação, SA",
-		"position": "Software Developer",
-		"startDate": "2015-08-31",
-		"endDate": "2019-04-30",
-		"url": "https://www.linkedin.com/company/1398256",
-		"location": "Faro Area, Portugal",
-		"summary": "**Project Overview:**\nDeveloped cutting-edge software solutions tailored for the hospitality industry, enhancing operational efficiency and customer experience.\n\n **Key Responsabilities:**\n- Develop interactive and rich user interfaces using Silverlight to streamline hospitality operations. This involves creating controls, layouts, and handling user interactions.\n- Implemented back-end logic for ASP.NET MVC applications, including creating and managing controllers, views, and models.\n- Developed Web APIs in C# (.Net Framework): Created robust and scalable Web APIs to support seamless data integration and communication.\n- Utilized SQL for efficient data storage and retrieval, ensuring the API’s optimal performance.\n- Implemented unit tests and integration tests for API.\n\n **Work Methodology:** Scrum\n\n **Version Control:** TFSVC"
-	  },
-	  {
-		"name": "Universidade do Algarve",
-		"position": "R&D Engineer",
-		"startDate": "2014-04-30",
-		"endDate": "2015-07-31",
-		"url": "https://www.linkedin.com/company/33511",
-		"location": "Faro Area, Portugal",
-		"summary": "R&D Engineer at SRM - Smart Revenue Management (QREN I&DT n.º 38962)\n\n **Project Overview:**\nLed the development of innovative web crawlers to enhance data retrieval from e-commerce websites, significantly improving data warehouse capabilities.\n\n **Key Responsabilities:**\n- Spearheaded the design and implementation of Web Crawlers using Selenium WebDriver, ensuring efficient and accurate data extraction.\n- Used C# (.Net Framework) to develop robust and scalable solutions tailored to project requirements.\n- Managed and optimized data storage with MongoDB, enhancing data accessibility and performance.\n- Applied algorithms to normalize data extracted from different sources."
-	  }
+		{
+			"name": "Paycritical - Soluções de Pagamento, Lda",
+			"position": "Fullstack Developer",
+			"startDate": "2023-03-01",
+			"url": "https://www.linkedin.com/company/paycritical/",
+			"location": "Remote Work",
+			"summary": "**Project Overview:**\n- Developed an innovative solution for WYD Lisbon 2023: Enabled restaurants to redeem meals by reading pilgrims QR Codes, streamlining the process for thousands of participants.\n- Full-cycle development of DeGrazie: Created a solution that allows restaurants to provide QR Codes on tables, enabling customers to easily read, order, and pay for their meals.\n\n **Key Responsabilities:**\n- Backoffice Development: Utilized React to implement a backoffice for merchants to manage QR Codes and define menu products.\n- Frontoffice Development: Developed a React-based frontoffice for customers to read QR Codes and seamlessly order and pay for their meals.\n- Database Management: Employed SQL for efficient data storage and retrieval.\n- Message Queuing: Implemented RabbitMQ for background operations, ensuring smooth and reliable task execution.\n- Task Scheduling: Used Hangfire to schedule background operations with a robust retry system.\n- Real-time Updates: Leveraged SignalR to read messages from RabbitMQ and automatically update the web app without user refresh.\n\n **Work Methodology**: Agile\n\n **Version Control:** GIT"
+		},
+		{
+			"name": "Omnibees",
+			"position": "Fullstack Developer",
+			"startDate": "2019-05-31",
+			"endDate": "2023-02-28",
+			"url": "https://www.linkedin.com/company/9348247",
+			"location": "Faro Area, Portugal",
+			"summary": "**Project Overview:**\nFull-cycle development of Omnibees to enhance hospitality services, ensuring seamless operations and improved customer experiences.\n\n **Key Responsabilities:**\n- Developed an API Template (.Net Core): Created a comprehensive API template in .Net Core, featuring authentication, authorization, tracing, health checks, logging, metrics, EF Core for database access and many usefull abstractions.\n- Migrated Silverlight to Angular: Transitioned legacy systems to modern frameworks, enhancing performance and user experience.\n- Developed Web APIs in C# (.Net Framework): Created robust APIs to support data integration and communication.\n- Implement and manage message queuing systems using MSMQ to handle asynchronous processing tasks.\n- Implemented distributed caching: Utilized Couchbase and Redis to optimize data retrieval and performance.\n- Database Management: Employed SQL for efficient data storage and retrieval, ensuring API efficiency.\n- Develop and maintain ETL packages using SSIS (SQL Server Integration Services) to extract, transform, and load data from various sources to make API reads more performant.\n- Unit Testing: Implemented unit tests using Moq to ensure business logic integrity during refactors.\n- Integration Testing: Ensured API endpoints functioned correctly through comprehensive integration tests.\n- End-to-End Testing: Applied Cypress tests to validate the entire system's functionality.\n\n **Work Methodology:** Scrum and Kanban\n\n **Version Control:** TFSVC and GIT (gitflow and trunkbase depending on the project size)"
+		},
+		{
+			"name": "Visualforma - Tecnologias de Informação, SA",
+			"position": "Software Developer",
+			"startDate": "2015-08-31",
+			"endDate": "2019-04-30",
+			"url": "https://www.linkedin.com/company/1398256",
+			"location": "Faro Area, Portugal",
+			"summary": "**Project Overview:**\nDeveloped cutting-edge software solutions tailored for the hospitality industry, enhancing operational efficiency and customer experience.\n\n **Key Responsabilities:**\n- Develop interactive and rich user interfaces using Silverlight to streamline hospitality operations. This involves creating controls, layouts, and handling user interactions.\n- Implemented back-end logic for ASP.NET MVC applications, including creating and managing controllers, views, and models.\n- Developed Web APIs in C# (.Net Framework): Created robust and scalable Web APIs to support seamless data integration and communication.\n- Utilized SQL for efficient data storage and retrieval, ensuring the API’s optimal performance.\n- Implemented unit tests and integration tests for API.\n\n **Work Methodology:** Scrum\n\n **Version Control:** TFSVC"
+		},
+		{
+			"name": "Universidade do Algarve",
+			"position": "R&D Engineer",
+			"startDate": "2014-04-30",
+			"endDate": "2015-07-31",
+			"url": "https://www.linkedin.com/company/33511",
+			"location": "Faro Area, Portugal",
+			"summary": "R&D Engineer at SRM - Smart Revenue Management (QREN I&DT n.º 38962)\n\n **Project Overview:**\nLed the development of innovative web crawlers to enhance data retrieval from e-commerce websites, significantly improving data warehouse capabilities.\n\n **Key Responsabilities:**\n- Spearheaded the design and implementation of Web Crawlers using Selenium WebDriver, ensuring efficient and accurate data extraction.\n- Used C# (.Net Framework) to develop robust and scalable solutions tailored to project requirements.\n- Managed and optimized data storage with MongoDB, enhancing data accessibility and performance.\n- Applied algorithms to normalize data extracted from different sources."
+		}
 	],
 	"education": [
-	  {
-		"institution": "Universidade do Algarve",
-		"area": "Electrical and Electronics Engineering",
-		"studyType": "Master's degree",
-		"startDate": "2013-12-31",
-		"endDate": "2016-12-31",
-		"score": "17 [0-20]"
-	  },
-	  {
-		"institution": "Universidade do Algarve",
-		"area": "Electrical and Electronics Engineering",
-		"studyType": "Bachelor",
-		"startDate": "2010-12-31",
-		"endDate": "2013-12-31",
-		"score": "15 [0-20]"
-	  }
+		{
+			"institution": "Universidade do Algarve",
+			"area": "Electrical and Electronics Engineering",
+			"studyType": "Master's degree",
+			"startDate": "2013-12-31",
+			"endDate": "2016-12-31",
+			"score": "17 [0-20]"
+		},
+		{
+			"institution": "Universidade do Algarve",
+			"area": "Electrical and Electronics Engineering",
+			"studyType": "Bachelor",
+			"startDate": "2010-12-31",
+			"endDate": "2013-12-31",
+			"score": "15 [0-20]"
+		}
 	],
 	"awards": [
-	  {
-		"title": "Maker of Merit - Display(Matriz) de LEDs interativo",
-		"date": "2015-09-30",
-		"awarder": "Lisbon Maiker Faire",
-		"summary": "Merit recognition for the project \"Display(Matriz) de LEDs interativo\" presented in Lisbon Makers Faire 2015."
-	  }
+		{
+			"title": "Maker of Merit - Display(Matriz) de LEDs interativo",
+			"date": "2015-09-30",
+			"awarder": "Lisbon Maiker Faire",
+			"summary": "Merit recognition for the project \"Display(Matriz) de LEDs interativo\" presented in Lisbon Makers Faire 2015."
+		}
 	],
 	"publications": [
-	  {
-		"name": "Framework for Hospitality Big Data Warehouse: the implementation of an efficient Hospitality Business Intelligence System",
-		"publisher": "International Journal of Information Systems in the Service Sector (IJISSS) 9(2), 27-45. DOI: http://dx.doi.org/10.4018/IJISSS.2017040102",
-		"releaseDate": "2017-12-31",
-		"url": "https://www.igi-global.com/gateway/article/176674"
-	  },
-	  {
-		"name": "A Web Crawler Framework for Revenue Management",
-		"publisher": "Proc. 14th Int. Conf. on Artificial Intelligence, Knowledge Engineering and Data Bases (AIKED '15), in Advances in Electrical and Computer Engineering, Tenerife, Canary Islands, Spain, 10-12 Jan, pp. 88-97. ISBN: 978-1-61804-279-8",
-		"releaseDate": "2015-12-31",
-		"url": "http://www.wseas.us/e-library/conferences/2015/Tenerife/COMEL/COMEL-11.pdf"
-	  },
-	  {
-		"name": "Big Data Warehouse Framework for Smart Revenue Management",
-		"publisher": "Proc. 3rd NAUN Int. Conf. on Management, Marketing, Tourism, Retail, Finance and Computer Applications (MATREFC '15), in Advances in Environmental Science and Energy Planning, Tenerife, Canary Islands, Spain, 10-12 Jan., pp. 13-22. ISBN: 978-1-61804-280-4",
-		"releaseDate": "2015-12-31",
-		"url": "https://sapientia.ualg.pt/bitstream/10400.1/6906/4/big%20data%20warehouse%20framework%20for%20smart%20revenue%20management.pdf"
-	  },
-	  {
-		"name": "Challenges in Building a Big Data Warehouse Applied to the Hotel Business Intelligence",
-		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 110-117. ISBN: 978-1-61804-313-9",
-		"releaseDate": "2015-12-31",
-		"url": "https://www.researchgate.net/profile/Celia_Ramos/publication/281209790_Challenges_in_Building_a_Big_Data_Warehouse_Applied_to_the_Hotel_Business_Intelligence/links/56dee12808aec8c022cf2ed6/Challenges-in-Building-a-Big-Data-Warehouse-Applied-to-the-Hotel-B"
-	  },
-	  {
-		"name": "Guest Reputation Indexes to Analyze the Hotel's Online Reputation Using Data Extracted from OTAs",
-		"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 50-59ISBN: 978-1-61804-313-9",
-		"releaseDate": "2015-12-31",
-		"url": "https://s3.amazonaws.com/academia.edu.documents/38598147/2015_Conferencia_Italia_Salerno_Choupina.pdf?response-content-disposition=inline%3B%20filename%3DGuest_Reputation_Indexes_to_Analyze_the.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWO"
-	  }
+		{
+			"name": "Framework for Hospitality Big Data Warehouse: the implementation of an efficient Hospitality Business Intelligence System",
+			"publisher": "International Journal of Information Systems in the Service Sector (IJISSS) 9(2), 27-45. DOI: http://dx.doi.org/10.4018/IJISSS.2017040102",
+			"releaseDate": "2017-12-31",
+			"url": "https://www.igi-global.com/gateway/article/176674"
+		},
+		{
+			"name": "A Web Crawler Framework for Revenue Management",
+			"publisher": "Proc. 14th Int. Conf. on Artificial Intelligence, Knowledge Engineering and Data Bases (AIKED '15), in Advances in Electrical and Computer Engineering, Tenerife, Canary Islands, Spain, 10-12 Jan, pp. 88-97. ISBN: 978-1-61804-279-8",
+			"releaseDate": "2015-12-31",
+			"url": "http://www.wseas.us/e-library/conferences/2015/Tenerife/COMEL/COMEL-11.pdf"
+		},
+		{
+			"name": "Big Data Warehouse Framework for Smart Revenue Management",
+			"publisher": "Proc. 3rd NAUN Int. Conf. on Management, Marketing, Tourism, Retail, Finance and Computer Applications (MATREFC '15), in Advances in Environmental Science and Energy Planning, Tenerife, Canary Islands, Spain, 10-12 Jan., pp. 13-22. ISBN: 978-1-61804-280-4",
+			"releaseDate": "2015-12-31",
+			"url": "https://sapientia.ualg.pt/bitstream/10400.1/6906/4/big%20data%20warehouse%20framework%20for%20smart%20revenue%20management.pdf"
+		},
+		{
+			"name": "Challenges in Building a Big Data Warehouse Applied to the Hotel Business Intelligence",
+			"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 110-117. ISBN: 978-1-61804-313-9",
+			"releaseDate": "2015-12-31",
+			"url": "https://www.researchgate.net/profile/Celia_Ramos/publication/281209790_Challenges_in_Building_a_Big_Data_Warehouse_Applied_to_the_Hotel_Business_Intelligence/links/56dee12808aec8c022cf2ed6/Challenges-in-Building-a-Big-Data-Warehouse-Applied-to-the-Hotel-B"
+		},
+		{
+			"name": "Guest Reputation Indexes to Analyze the Hotel's Online Reputation Using Data Extracted from OTAs",
+			"publisher": "Proc. 6th Int. Conf. on Applied Informatics and Computing Theory (AICT'15), in Recent Research in Applied Informatics, Salerno, Italy, 27-29 June, pp. 50-59ISBN: 978-1-61804-313-9",
+			"releaseDate": "2015-12-31",
+			"url": "https://s3.amazonaws.com/academia.edu.documents/38598147/2015_Conferencia_Italia_Salerno_Choupina.pdf?response-content-disposition=inline%3B%20filename%3DGuest_Reputation_Indexes_to_Analyze_the.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWO"
+		}
 	],
 	"skills": [
-	  {
-		"name": "Frontend",
-		"level": " ",
-		"keywords": [
-		  "Angular",
-		  "React",
-		  "Typescript",
-		  "Silverlight",
-		  "ASP NET MVC"
-		]
-	  },
-	  {
-		"name": "Backend",
-		"level": " ",
-		"keywords": [
-		  "C#",
-		  ".NET Core",
-		  ".NET Framework",
-		  "REST API",
-		  "SQL / Couchbase / Redis",
-		  "MSMQ / RabbitMQ",
-		  "Serilog / NLog",
-		  "JSON / SOAP",
-		  "WCF RIA Services",
-		  "Hangfire",
-		  "SignalR"
-		]
-	  },
-	  {
-		"name": "Version Control",
-		"level": " ",
-		"keywords": [
-		  "GIT",
-		  "TFSVC",
-		  "Azure Devops",
-		  "Github Actions"
-		]
-	  },
-	  {
-		"name": "Testing Frameworks",
-		"level": " ",
-		"keywords": [
-		  "MSTest",
-		  "Moq",
-		  "Cypress",
-		  "Selenium WebDriver",
-		  "Postman API Testing",
-		  "SOAP UI Load Testing"
-		]
-	  },
-	  {
-		"name": "Work Methodologies",
-		"level": " ",
-		"keywords": [
-		  "Scrum",
-		  "Kanban",
-		  "Agile"
-		]
-	  },
-	  {
-		"name": "Tools",
-		"level": " ",
-		"keywords": [
-		  "Postman",
-		  "SOAP UI",
-		  "SSMS",
-		  "Visual Studio",
-		  "VS Code",
-		  "RoslynPad",
-		  "LINQPad",
-		  "Mockoon",
-		  "ILSpy",
-		  "Fiddler",
-		  "GitExtensions",
-		  "Docker Desktop"
-		]
-	  },
-	  {
-		"name": "Soft Skills",
-		"level": " ",
-		"keywords": [
-		  "Critical Thinking",
-		  "Ownership",
-		  "Perfectionist",
-		  "Funny"
-		]
-	  }
+		{
+			"name": "Frontend",
+			"level": " ",
+			"keywords": [
+				"Angular",
+				"React",
+				"Typescript",
+				"Silverlight",
+				"ASP NET MVC"
+			]
+		},
+		{
+			"name": "Backend",
+			"level": " ",
+			"keywords": [
+				"C#",
+				".NET Core",
+				".NET Framework",
+				"REST API",
+				"SQL / Couchbase / Redis",
+				"MSMQ / RabbitMQ",
+				"Serilog / NLog",
+				"JSON / SOAP",
+				"WCF RIA Services",
+				"Hangfire",
+				"SignalR"
+			]
+		},
+		{
+			"name": "Version Control",
+			"level": " ",
+			"keywords": [
+				"GIT",
+				"TFSVC",
+				"Azure Devops",
+				"Github Actions"
+			]
+		},
+		{
+			"name": "Testing Frameworks",
+			"level": " ",
+			"keywords": [
+				"MSTest",
+				"Moq",
+				"Cypress",
+				"Selenium WebDriver",
+				"Postman API Testing",
+				"SOAP UI Load Testing"
+			]
+		},
+		{
+			"name": "Work Methodologies",
+			"level": " ",
+			"keywords": [
+				"Scrum",
+				"Kanban",
+				"Agile"
+			]
+		},
+		{
+			"name": "Tools",
+			"level": " ",
+			"keywords": [
+				"Postman",
+				"SOAP UI",
+				"SSMS",
+				"Visual Studio",
+				"VS Code",
+				"RoslynPad",
+				"LINQPad",
+				"Mockoon",
+				"ILSpy",
+				"Fiddler",
+				"GitExtensions",
+				"Docker Desktop"
+			]
+		},
+		{
+			"name": "Soft Skills",
+			"level": " ",
+			"keywords": [
+				"Critical Thinking",
+				"Ownership",
+				"Perfectionist",
+				"Funny"
+			]
+		}
 	],
 	"languages": [
-	  {
-		"fluency": "Native Speaker",
-		"language": "Portuguese"
-	  },
-	  {
-		"fluency": "Elementary",
-		"language": "English"
-	  }
+		{
+			"fluency": "Native Speaker",
+			"language": "Portuguese"
+		},
+		{
+			"fluency": "Elementary",
+			"language": "English"
+		}
 	],
 	"interests": [
-	  {
-		"name": "Sports",
-		"keywords": [
-		  "Soccer",
-		  "Futsal",
-		  "Padel"
-		]
-	  },
-	  {
-		"name": "Spending Time with Friends",
-		"keywords": [
-		  "Bike",
-		  "Fishing",
-		  "Dinner"
-		]
-	  },
-	  {
-		"name": "Make personal projects",
-		"keywords": [
-		  "Eletronics",
-		  "Programming"
-		]
-	  }
+		{
+			"name": "Sports",
+			"keywords": [
+				"Soccer",
+				"Futsal",
+				"Padel"
+			]
+		},
+		{
+			"name": "Spending Time with Friends",
+			"keywords": [
+				"Bike",
+				"Fishing",
+				"Dinner"
+			]
+		},
+		{
+			"name": "Make personal projects",
+			"keywords": [
+				"Eletronics",
+				"Programming"
+			]
+		}
 	],
 	"projects": [
-	  {
-		"name": "Display(Matriz) de LEDs interativo",
-		"description": "A LED Display made to be exposed in 'Semana Académica do Algarve' over the bar tend of my course. Led Matrix features: React to sound beats (frequency), Show images, Play Simple Games, Write Messages.",
-		"keywords": [
-		  "LED",
-		  "Matrix",
-		  "POV",
-		  "Display",
-		  "Maker",
-		  "Electronics",
-		  "Arduino"
-		],
-		"startDate": "2015-05-01",
-		"endDate": "2015-09-25",
-		"url": "https://www.ualg.pt/ualg-recebe-cinco-distincoes-na-maker-faire-lisboa-2015",
-		"roles": [
-		  "Firmware",
-		  "Hardware",
-		  "Structure"
-		]
-	  }
+		{
+			"name": "Display(Matriz) de LEDs interativo",
+			"description": "A LED Display made to be exposed in 'Semana Académica do Algarve' over the bar tend of my course. Led Matrix features: React to sound beats (frequency), Show images, Play Simple Games, Write Messages.",
+			"keywords": [
+				"LED",
+				"Matrix",
+				"POV",
+				"Display",
+				"Maker",
+				"Electronics",
+				"Arduino"
+			],
+			"startDate": "2015-05-01",
+			"endDate": "2015-09-25",
+			"url": "https://www.ualg.pt/ualg-recebe-cinco-distincoes-na-maker-faire-lisboa-2015",
+			"roles": [
+				"Firmware",
+				"Hardware",
+				"Structure"
+			]
+		}
 	],
 	"certificates": [
-	  {
-		"name": "Exam 70-464: Developing Microsoft SQL Server 2012 Databases",
-		"issuer": "Microsoft",
-		"date": "2019-09-30"
-	  }
+		{
+			"name": "Exam 70-464: Developing Microsoft SQL Server 2012 Databases",
+			"issuer": "Microsoft",
+			"date": "2019-09-30"
+		}
 	],
 	"meta": {
-	  "version": "v1.0.0",
-	  "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
-	  "theme": "elegant"
+		"version": "v1.0.0",
+		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+		"theme": "elegant"
 	}
-  }
+}
