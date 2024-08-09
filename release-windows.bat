@@ -12,12 +12,9 @@ for /f "delims=" %%i in (%input%) do (
 
     echo Generating %%i...
     
-    echo .\node_modules\.bin\resume export releases\resume_%%i.html -t %%i
-    .\node_modules\.bin\resume export releases\resume_%%i.html -t %%i
+    echo resume export releases\resume_%%i.html -t %%i
+    resume export releases\resume_%%i.html -t %%i
     
-    echo .\node_modules\.bin\resume export releases\resume_%%i.pdf -t %%i
-    .\node_modules\.bin\resume export releases\resume_%%i.pdf -t %%i
+    echo resume export releases\resume_%%i.pdf -t %%i
+    resume export releases\resume_%%i.pdf -t %%i
 )
-
-cd releases
-tar -zcvf CV.tar.gz *

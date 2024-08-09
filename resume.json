@@ -32,7 +32,7 @@
 			"startDate": "2023-03-01",
 			"url": "https://www.linkedin.com/company/paycritical/",
 			"location": "Remote Work",
-			"summary": "**Project Overview:**\n- Developed an innovative solution for WYD Lisbon 2023: Enabled restaurants to redeem meals by reading pilgrims QR Codes, streamlining the process for thousands of participants.\n- Full-cycle development of DeGrazie: Created a solution that allows restaurants to provide QR Codes on tables, enabling customers to easily read, order, and pay for their meals.\n\n **Key Responsabilities:**\n- Backoffice Development: Utilized React to implement a backoffice for merchants to manage QR Codes and define menu products.\n- Frontoffice Development: Developed a React-based frontoffice for customers to read QR Codes and seamlessly order and pay for their meals.\n- Database Management: Employed SQL for efficient data storage and retrieval.\n- Message Queuing: Implemented RabbitMQ for background operations, ensuring smooth and reliable task execution.\n- Task Scheduling: Used Hangfire to schedule background operations with a robust retry system.\n- Real-time Updates: Leveraged SignalR to read messages from RabbitMQ and automatically update the web app without user refresh.\n\n **Work Methodology**: Agile\n\n **Version Control:** GIT"
+			"summary": "𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:\n- Developed an innovative solution for WYD Lisbon 2023: Enabled restaurants to redeem meals by reading pilgrims QR Codes, streamlining the process for thousands of participants.\n- Full-cycle development of DeGrazie: Created a solution that allows restaurants to provide QR Codes on tables, enabling customers to easily read, order, and pay for their meals.\n\n 𝗞𝗲𝘆 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀:\n- Backoffice Development: Utilized React to implement a backoffice for merchants to manage QR Codes and define menu products.\n- Frontoffice Development: Developed a React-based frontoffice for customers to read QR Codes and seamlessly order and pay for their meals.\n- Database Management: Employed SQL for efficient data storage and retrieval.\n- Message Queuing: Implemented RabbitMQ for background operations, ensuring smooth and reliable task execution.\n- Task Scheduling: Used Hangfire to schedule background operations with a robust retry system.\n- Real-time Updates: Leveraged SignalR to read messages from RabbitMQ and automatically update the web app without user refresh.\n\n 𝗪𝗼𝗿𝗸 𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆: Agile\n\n 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗖𝗼𝗻𝘁𝗿𝗼𝗹: GIT"
 		},
 		{
 			"name": "Omnibees",
@@ -41,7 +41,7 @@
 			"endDate": "2023-02-28",
 			"url": "https://www.linkedin.com/company/9348247",
 			"location": "Faro Area, Portugal",
-			"summary": "**Project Overview:**\nFull-cycle development of Omnibees to enhance hospitality services, ensuring seamless operations and improved customer experiences.\n\n **Key Responsabilities:**\n- Developed an API Template (.Net Core): Created a comprehensive API template in .Net Core, featuring authentication, authorization, tracing, health checks, logging, metrics, EF Core for database access and many usefull abstractions.\n- Migrated Silverlight to Angular: Transitioned legacy systems to modern frameworks, enhancing performance and user experience.\n- Developed Web APIs in C# (.Net Framework): Created robust APIs to support data integration and communication.\n- Implement and manage message queuing systems using MSMQ to handle asynchronous processing tasks.\n- Implemented distributed caching: Utilized Couchbase and Redis to optimize data retrieval and performance.\n- Database Management: Employed SQL for efficient data storage and retrieval, ensuring API efficiency.\n- Develop and maintain ETL packages using SSIS (SQL Server Integration Services) to extract, transform, and load data from various sources to make API reads more performant.\n- Unit Testing: Implemented unit tests using Moq to ensure business logic integrity during refactors.\n- Integration Testing: Ensured API endpoints functioned correctly through comprehensive integration tests.\n- End-to-End Testing: Applied Cypress tests to validate the entire system's functionality.\n\n **Work Methodology:** Scrum and Kanban\n\n **Version Control:** TFSVC and GIT (gitflow and trunkbase depending on the project size)"
+			"summary": "𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:\nFull-cycle development of Omnibees to enhance hospitality services, ensuring seamless operations and improved customer experiences.\n\n 𝗞𝗲𝘆 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀:\n- Developed an API Template (.Net Core): Created a comprehensive API template in .Net Core, featuring authentication, authorization, tracing, health checks, logging, metrics, EF Core for database access and many usefull abstractions.\n- Migrated Silverlight to Angular: Transitioned legacy systems to modern frameworks, enhancing performance and user experience.\n- Developed Web APIs in C# (.Net Framework): Created robust APIs to support data integration and communication.\n- Implement and manage message queuing systems using MSMQ to handle asynchronous processing tasks.\n- Implemented distributed caching: Utilized Couchbase and Redis to optimize data retrieval and performance.\n- Database Management: Employed SQL for efficient data storage and retrieval, ensuring API efficiency.\n- Develop and maintain ETL packages using SSIS (SQL Server Integration Services) to extract, transform, and load data from various sources to make API reads more performant.\n- Unit Testing: Implemented unit tests using Moq to ensure business logic integrity during refactors.\n- Integration Testing: Ensured API endpoints functioned correctly through comprehensive integration tests.\n- End-to-End Testing: Applied Cypress tests to validate the entire system's functionality.\n\n 𝗪𝗼𝗿𝗸 𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆: Scrum and Kanban\n\n 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗖𝗼𝗻𝘁𝗿𝗼𝗹: TFSVC and GIT (gitflow and trunkbase depending on the project size)"
 		},
 		{
 			"name": "Visualforma - Tecnologias de Informação, SA",
@@ -50,7 +50,7 @@
 			"endDate": "2019-04-30",
 			"url": "https://www.linkedin.com/company/1398256",
 			"location": "Faro Area, Portugal",
-			"summary": "**Project Overview:**\nDeveloped cutting-edge software solutions tailored for the hospitality industry, enhancing operational efficiency and customer experience.\n\n **Key Responsabilities:**\n- Develop interactive and rich user interfaces using Silverlight to streamline hospitality operations. This involves creating controls, layouts, and handling user interactions.\n- Implemented back-end logic for ASP.NET MVC applications, including creating and managing controllers, views, and models.\n- Developed Web APIs in C# (.Net Framework): Created robust and scalable Web APIs to support seamless data integration and communication.\n- Utilized SQL for efficient data storage and retrieval, ensuring the API’s optimal performance.\n- Implemented unit tests and integration tests for API.\n\n **Work Methodology:** Scrum\n\n **Version Control:** TFSVC"
+			"summary": "𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:\nDeveloped cutting-edge software solutions tailored for the hospitality industry, enhancing operational efficiency and customer experience.\n\n 𝗞𝗲𝘆 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀:\n- Develop interactive and rich user interfaces using Silverlight to streamline hospitality operations. This involves creating controls, layouts, and handling user interactions.\n- Implemented back-end logic for ASP.NET MVC applications, including creating and managing controllers, views, and models.\n- Developed Web APIs in C# (.Net Framework): Created robust and scalable Web APIs to support seamless data integration and communication.\n- Utilized SQL for efficient data storage and retrieval, ensuring the API’s optimal performance.\n- Implemented unit tests and integration tests for API.\n\n 𝗪𝗼𝗿𝗸 𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆: Scrum\n\n 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗖𝗼𝗻𝘁𝗿𝗼𝗹: TFSVC"
 		},
 		{
 			"name": "Universidade do Algarve",
@@ -59,7 +59,7 @@
 			"endDate": "2015-07-31",
 			"url": "https://www.linkedin.com/company/33511",
 			"location": "Faro Area, Portugal",
-			"summary": "R&D Engineer at SRM - Smart Revenue Management (QREN I&DT n.º 38962)\n\n **Project Overview:**\nLed the development of innovative web crawlers to enhance data retrieval from e-commerce websites, significantly improving data warehouse capabilities.\n\n **Key Responsabilities:**\n- Spearheaded the design and implementation of Web Crawlers using Selenium WebDriver, ensuring efficient and accurate data extraction.\n- Used C# (.Net Framework) to develop robust and scalable solutions tailored to project requirements.\n- Managed and optimized data storage with MongoDB, enhancing data accessibility and performance.\n- Applied algorithms to normalize data extracted from different sources."
+			"summary": "R&D Engineer at SRM - Smart Revenue Management (QREN I&DT n.º 38962)\n\n 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:\nLed the development of innovative web crawlers to enhance data retrieval from e-commerce websites, significantly improving data warehouse capabilities.\n\n 𝗞𝗲𝘆 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀:\n- Spearheaded the design and implementation of Web Crawlers using Selenium WebDriver, ensuring efficient and accurate data extraction.\n- Used C# (.Net Framework) to develop robust and scalable solutions tailored to project requirements.\n- Managed and optimized data storage with MongoDB, enhancing data accessibility and performance.\n- Applied algorithms to normalize data extracted from different sources."
 		}
 	],
 	"education": [
@@ -123,7 +123,7 @@
 	"skills": [
 		{
 			"name": "Frontend",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"Angular",
 				"React",
@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Backend",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"C#",
 				".NET Core",
@@ -151,7 +151,7 @@
 		},
 		{
 			"name": "Version Control",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"GIT",
 				"TFSVC",
@@ -161,11 +161,11 @@
 		},
 		{
 			"name": "Testing Frameworks",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"MSTest",
 				"Moq",
-				"Cypress",
+				"Cypress.io",
 				"Selenium WebDriver",
 				"Postman API Testing",
 				"SOAP UI Load Testing"
@@ -173,7 +173,7 @@
 		},
 		{
 			"name": "Work Methodologies",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"Scrum",
 				"Kanban",
@@ -182,7 +182,7 @@
 		},
 		{
 			"name": "Tools",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"Postman",
 				"SOAP UI",
@@ -200,7 +200,7 @@
 		},
 		{
 			"name": "Soft Skills",
-			"level": " ",
+			"level": "Master",
 			"keywords": [
 				"Critical Thinking",
 				"Ownership",
